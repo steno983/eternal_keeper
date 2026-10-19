@@ -1,5 +1,9 @@
 # Capitolo 1: La fuga dall’archivio
 
+**[Gioca alla demo web](https://steno983.github.io/eternal_keeper/)** · [Compilazioni](https://github.com/steno983/eternal_keeper/actions/workflows/web.yml) · [Note sull'esportazione web](docs/web-demo.md)
+
+La demo web usa gli stessi comandi da tastiera della versione desktop. Il primo caricamento può richiedere tempo; i controlli touch non sono ancora disponibili.
+
 Testi modificabili in [data/testi](data/testi/LEGGIMI.md), riletti a ogni nuova partita. Introduzione a scorrimento prima della scena con Corvin: Spazio pausa, frecce/rotella per leggere, Invio/clic/Esc prosegue.
 
 Il titolo avvia la sequenza tratta dalle prime due sessioni: fumetti manuali, archivio a scorrimento con tre scontri, un’unica resistenza di 25 secondi, fuga lunga fino al varco e ricompensa alla locanda. Invio / Spazio / clic per avanzare i dialoghi; Esc salta la pagina corrente. **B dal titolo** avvia la precedente arena del ponte.
