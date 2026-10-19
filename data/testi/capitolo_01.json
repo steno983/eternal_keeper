@@ -1,0 +1,248 @@
+{
+  "_note": "Testi adattati dalle sessioni 1 e 2. Modifica titoli, sottotitoli, nomi e text; conserva id, art e hero. Il gioco non rilegge i PDF e non rigenera questi testi.",
+  "intro": {
+    "kicker": "Ceneri & Echi · Capitolo I",
+    "title": "Un invito a Neverwinter",
+    "paragraphs": [
+      "Siamo Tholgrin, Layla e Lupinor. Tre avventurieri, tre modi diversi di affrontare il pericolo.",
+      "Tholgrin è un nano, chierico di Oghma: sotto la sua armatura custodisce una fede salda, e nelle sue preghiere ardono luce e fuoco. Layla è una ladra dai capelli biondi, rapida e attenta, capace di evocare lame psioniche. Lupinor è un guerriero elfo: combatte con la scimitarra e può manifestare un’eco di sé.",
+      "Nel 1491 DR, un invito dei Custodi dell’Eterno ci conduce al Corno di Neve, una locanda di Neverwinter. Da lì, le tracce ci portano all’ex tempio di Helm, ora sede dell’organizzazione.",
+      "Arman Vorrick e Cyrrha Telemnar ci ricevono e ci chiedono di attendere. Poi qualcosa cambia. Si parla di un furto. Il quartier generale si agita. I Custodi ci assalgono.",
+      "Uno degli assalitori si volta contro gli altri e li abbatte. È un uomo in tunica nera. Ci indica una via di fuga e dice di aver mantenuto la propria parte di un accordo.",
+      "Un accordo che nessuno di noi ricorda."
+    ]
+  },
+  "rooms": {
+    "hold_progress": "Tempo guadagnato: %d%%",
+    "exit": "Esci a destra · corsia centrale →",
+    "resistance_progress": "Resisti ancora %d s",
+    "wave_names": {
+      "first_contact": "Primo contatto",
+      "crossfire": "Tiro incrociato",
+      "staggered": "Assalto sfalsato",
+      "last_push": "Ultima pressione",
+      "orologio_first_contact": "Il primo battito",
+      "orologio_crossfire": "Flussi incrociati",
+      "orologio_staggered": "Risonanza",
+      "orologio_last_push": "L’ultimo sigillo"
+    },
+    "stages": {
+      "archivio_scale": {
+        "name": "Le scale dell’archivio",
+        "notice": "Avanza lungo l’archivio. Libera i passaggi e raggiungi il varco in fondo."
+      },
+      "archivio_passaggio": {
+        "name": "Il passaggio segreto",
+        "notice": "RESISTENZA: A/D cambia il verso, W/S la corsia. Copri Layla da entrambi i lati!"
+      },
+      "archivio_fuga": {
+        "name": "La via di fuga",
+        "notice": "Fuggi lungo il corridoio e raggiungi l’uscita in fondo, sulla corsia centrale."
+      },
+      "orologio_discesa": {
+        "name": "La discesa di Tantras",
+        "notice": "Segui la galleria funeraria. Libera gli scontri lungo il percorso e raggiungi il sigillo."
+      },
+      "orologio_sigillo": {
+        "name": "La galleria dei sigilli",
+        "notice": "Attraversa la galleria e raggiungi l’accesso alla camera. Gli avversari presidiano i passaggi."
+      },
+      "orologio_camera": {
+        "name": "La camera dei cicli",
+        "notice": "Accorda i tre sigilli lungo la camera, poi raggiungi il varco a destra."
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "pagina_1",
+      "title": "Un accordo dimenticato",
+      "subtitle": "L’ex tempio di Helm · Neverwinter",
+      "art": "temple",
+      "beats": [
+        {
+          "hero": 0,
+          "name": "Corvin",
+          "text": "Ho mantenuto la mia parte dell’accordo. La sacca è nell’ultima stanza a sinistra."
+        },
+        {
+          "hero": 0,
+          "text": "Quale accordo? Lo specchio… riflette gli oggetti in posizioni diverse."
+        },
+        {
+          "hero": 1,
+          "text": "La parete si è aperta. Scendiamo, prima che arrivino le guardie."
+        }
+      ]
+    },
+    {
+      "id": "pagina_2",
+      "title": "Quattro anni nel buio",
+      "subtitle": "L’archivio sotterraneo · 4 Alturiak 1495",
+      "art": "daleal",
+      "beats": [
+        {
+          "hero": 1,
+          "text": "Daleal, respira. Non vogliamo farti del male. Ci serve una via d’uscita."
+        },
+        {
+          "hero": 0,
+          "name": "Daleal",
+          "text": "È il 4 Alturiak 1495. Prendete la chiave. E i rapporti delle vostre missioni."
+        },
+        {
+          "hero": 2,
+          "text": "1495? Ricordiamo il 1491. Tholgrin, stanno aprendo la porta lassù."
+        }
+      ]
+    },
+    {
+      "id": "pagina_3",
+      "title": "I nostri rapporti",
+      "subtitle": "Le guardie stanno scendendo",
+      "art": "daleal",
+      "beats": [
+        {
+          "hero": 0,
+          "text": "I rapporti sono con noi. Daleal ci ha dato una possibilità: sfruttiamola."
+        },
+        {
+          "hero": 1,
+          "text": "Ho trovato il meccanismo. Tieni la posizione e coprimi da entrambi i lati mentre lo apro."
+        },
+        {
+          "hero": 2,
+          "text": "L’eco presidia le scale. Non dobbiamo vincere una guerra: dobbiamo uscire."
+        }
+      ]
+    },
+    {
+      "id": "pagina_4",
+      "title": "La porta nascosta",
+      "subtitle": "L’eco trattiene gli inseguitori",
+      "art": "daleal",
+      "beats": [
+        {
+          "hero": 1,
+          "text": "È aperto! Il corridoio porta dietro l’edificio."
+        },
+        {
+          "hero": 2,
+          "text": "Lascio l’eco sulle scale. Ci darà ancora qualche secondo."
+        },
+        {
+          "hero": 0,
+          "text": "Avanti, allora. Nessuno resta qui. Raggiungiamo la strada."
+        }
+      ]
+    },
+    {
+      "id": "pagina_5",
+      "title": "Lo Scudo Infrangibile",
+      "subtitle": "Una stanza privata · The Chasm",
+      "art": "inn",
+      "beats": [
+        {
+          "hero": 2,
+          "text": "Abbiamo attraversato il fiume. Allo Scudo Infrangibile potremo leggere senza farci notare."
+        },
+        {
+          "hero": 1,
+          "text": "Questi appunti… è la nostra scrittura. NO-1. Anni di missioni che non ricordo."
+        },
+        {
+          "hero": 0,
+          "text": "Il rapporto sull’Orologio di Thultanthar è una pista. Ricostruiamo i fatti, un passo alla volta."
+        }
+      ]
+    },
+    {
+      "id": "orologio_rapporto",
+      "title": "Il ritmo sepolto",
+      "subtitle": "Rapporto 217-A · Ricostruzione della spedizione sotto la Vecchia Tantras",
+      "art": "orologio_comic_entry",
+      "beats": [
+        {
+          "hero": 0,
+          "text": "Rapporto 217-A. Catacombe sotto la Vecchia Tantras. Proviamo a ricostruire il percorso descritto."
+        },
+        {
+          "hero": 1,
+          "text": "Sono le nostre firme. Ma leggere non è ricordare."
+        },
+        {
+          "hero": 2,
+          "text": "Seguiamo ciò che è scritto. Il resto resta un’ipotesi."
+        }
+      ]
+    },
+    {
+      "id": "orologio_recupero",
+      "title": "Un battito, non il tempo",
+      "subtitle": "Il recupero descritto nel rapporto · Poi, di nuovo alla locanda",
+      "art": "orologio_comic_end",
+      "beats": [
+        {
+          "hero": 0,
+          "text": "Il rapporto lo descrive funzionante: un’eco arcana che stabilizza i flussi magici. Scandisce cicli, non il tempo."
+        },
+        {
+          "hero": 2,
+          "text": "Lo abbiamo recuperato e spedito ai Custodi. Il furto è avvenuto dopo la spedizione."
+        },
+        {
+          "hero": 1,
+          "text": "Qui parla di un ricco commerciante del mercato nero di Neverwinter. È una pista, non ancora una risposta."
+        }
+      ]
+    },
+    {
+      "id": "orologio_varco",
+      "title": "Rune lungo il cammino",
+      "subtitle": "Ricostruzione del rapporto 217-A · Il passaggio oltre la galleria",
+      "art": "orologio_route_seal",
+      "beats": [
+        {
+          "hero": 0,
+          "text": "Il rapporto indica rune netheresi sulla superficie del meccanismo. Questi segni meritano attenzione."
+        },
+        {
+          "hero": 1,
+          "text": "La galleria continua oltre il sigillo. Teniamo libera la strada."
+        },
+        {
+          "hero": 2,
+          "text": "Un passo alla volta. Non sappiamo ancora che cosa abbiamo lasciato fuori dal rapporto."
+        }
+      ]
+    },
+    {
+      "id": "orologio_camera_aperta",
+      "title": "La camera dei cicli",
+      "subtitle": "Ricostruzione del rapporto 217-A · Flussi magici da accordare",
+      "art": "orologio_route_chamber",
+      "beats": [
+        {
+          "hero": 2,
+          "text": "Il meccanismo è al centro della camera. Le incisioni convergono verso di lui."
+        },
+        {
+          "hero": 0,
+          "text": "Il suo battito stabilizza i flussi. Accorderò i sigilli, poi raggiungeremo il varco."
+        },
+        {
+          "hero": 1,
+          "text": "Ti copro. Ma quando una corsia si accende, spostati."
+        }
+      ]
+    }
+  ],
+  "levels": {
+    "fuga_archivio": {
+      "name": "La fuga dall’archivio"
+    },
+    "orologio": {
+      "name": "L’Orologio di Thultanthar"
+    }
+  }
+}

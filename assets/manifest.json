@@ -1,0 +1,238 @@
+{
+  "status": "Playable graphite-on-paper presentation: six whole-figure animated actors, independent scenery layers and character-sheet UI; mechanics retained",
+  "engine": "Godot 4.7.2",
+  "canvas": [
+    1440,
+    810
+  ],
+  "assets": [
+    {
+      "file": "art/abbey.png",
+      "source": "OpenAI built-in Imagegen",
+      "use": "opaque distant parallax",
+      "prompt": "Hand-painted side-view ruined gothic abbey above a misty teal moonlit valley; no characters, floor or text."
+    },
+    {
+      "file": "art/heroes-source.png",
+      "source": "OpenAI built-in Imagegen",
+      "use": "three heroes, four prototype poses each, true alpha verified",
+      "prompt": "4 columns by 3 rows. Dwarf cleric in silver/gold plate with red cape mace shield; blonde female rogue in purple with psionic blades; silver-haired elf in teal with scimitar and wrist crossbow. Ready, two running poses, strike. Side view facing right; transparent.",
+      "normalization": "Rows split at y=316/650; threshold alpha bounds, consistent per-hero scale, 256-square frame, feet aligned at y=250.",
+      "status": "superseded for in-game animation; retained as source reference"
+    },
+    {
+      "files": "audio/*.wav",
+      "source": "Original procedural audio synthesis",
+      "license": "Project-original"
+    },
+    {
+      "files": "fonts/*.ttf",
+      "source": "Local Windows Georgia / Segoe UI",
+      "restriction": "Private prototype; replace fonts before distribution."
+    },
+    {
+      "file": "art/bridge-floor.png",
+      "source": "OpenAI built-in Imagegen",
+      "prompt": "Entire canvas of worn blue-gray basalt paving in irregular horizontal rows, shallow elevated orthographic beat-em-up view, matte hand-painted texture, no objects, walls, text or vanishing point.",
+      "use": "mirrored continuous world-space bridge floor"
+    },
+    {
+      "file": "art/enemies-source.png",
+      "source": "OpenAI built-in Imagegen",
+      "prompt": "Three columns, two rows; left-facing undead sword marauder, hooded crossbowman, giant executioner with axe; ready and attack poses. Fine ink outlines and painted Japanese fantasy arcade style. Charcoal armor and burgundy cloth. Transparent, no scenery or text.",
+      "normalization": "Alpha threshold 80 connected components; six subjects isolated with antialias margin; fixed per-type scale, 256-square frames with foot baseline y=250.",
+      "status": "superseded for in-game animation; retained as source reference"
+    },
+    {
+      "files": "animation_v2/*",
+      "source": "OpenAI built-in Imagegen; original identity references",
+      "use": "native animation assets replacing static hero/enemy pose swapping",
+      "prompts": "animation_v2/prompts.json",
+      "qa": "animation_v2/qa.json",
+      "normalization": "Connected-subject alpha isolation; no per-frame rescaling; fixed hip anchor; foot baseline; clipping checks. Dedicated dwarf attack source replaces overlapping/rejected original swing cells.",
+      "runtime": "AnimatedSprite2D nodes + SpriteFrames resources in y-sorted layer; simulation-driven timeline and contact events; 24 source drawings per hero, 16/12/16 per enemy type."
+    },
+    {
+      "files": "animation_v3/*.png and *.tres",
+      "source": "Existing v2 source art, offline RIFE 4.9 ONNX optical-flow interpolation",
+      "model": "https://huggingface.co/edgetools/rife",
+      "license": "RIFE model MIT; existing source art provenance unchanged",
+      "status": "provisional; rapid weapons show interpolation artifacts"
+    },
+    {
+      "files": "scripts/run_rig.gd",
+      "source": "Native Godot textured polygons sampling existing animation_v2 hero atlases",
+      "use": "Independent near/far leg chains with two-bone IK, half-cycle phase offset and distance-based sampling",
+      "status": "Technical cutout animation; upper body and joints remain provisional",
+      "provenance": "No additional generated art accepted for this revision"
+    },
+    {
+      "files": "layla_skin/*.png, tholgrin_skin/*.png, lupinor_skin/*.png",
+      "source": "OpenAI built-in Imagegen; existing project hero art as identity references",
+      "use": "Twelve cutout parts per hero, animated by scripts/hero_run_skin.gd from the approved Layla pose cycle",
+      "normalization": "Connected-subject slicing, alpha checks, crop and resize to at most 256 pixels; source sheets and prompts retained",
+      "status": "Technical demo; running only; other action animation remains v3"
+    },
+    {
+      "files": "{raider,archer,warden}_skin/*.png",
+      "source": "OpenAI built-in Imagegen; per-kit provenance.json records prompt and reference",
+      "use": "Nine-part enemy kits used for idle, locomotion, windup, attack, hurt and death",
+      "normalization": "Connected subject isolation, 3x3 slots, alpha bounds, max 256px per part; source retained",
+      "status": "Prototype; native Godot captures inspected; 99 enemy integration checks passed"
+    },
+    {
+      "files": "pencil/*",
+      "source": "OpenAI built-in Imagegen; prompts and references in pencil/provenance.json",
+      "use": "Playable presentation; 144 whole-figure key drawings, scenery and portraits",
+      "normalization": "Connected-subject isolation, fixed per-actor scale, 512x416 pose canvas; native SpriteFrames",
+      "status": "First playable art pass; eight running poses and four poses per attack, no automatic inbetweens shipped",
+      "validation": "Native in-engine screenshots, timing tests and full gameplay input tour"
+    }
+  ],
+  "sprite_qa": [
+    {
+      "hero": 0,
+      "pose": 0,
+      "size": [
+        182,
+        185
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "hero": 0,
+      "pose": 1,
+      "size": [
+        195,
+        181
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "hero": 0,
+      "pose": 2,
+      "size": [
+        222,
+        179
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "hero": 0,
+      "pose": 3,
+      "size": [
+        228,
+        177
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "hero": 1,
+      "pose": 0,
+      "size": [
+        184,
+        207
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "hero": 1,
+      "pose": 1,
+      "size": [
+        177,
+        200
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "hero": 1,
+      "pose": 2,
+      "size": [
+        220,
+        201
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "hero": 1,
+      "pose": 3,
+      "size": [
+        238,
+        188
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "hero": 2,
+      "pose": 0,
+      "size": [
+        187,
+        220
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "hero": 2,
+      "pose": 1,
+      "size": [
+        211,
+        205
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "hero": 2,
+      "pose": 2,
+      "size": [
+        232,
+        215
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "hero": 2,
+      "pose": 3,
+      "size": [
+        238,
+        204
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    }
+  ]
+}

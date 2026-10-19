@@ -1,0 +1,8 @@
+.godot/
+.tools/
+artifacts/
+build/
+tmp/
+export_templates/
+docs/sessioni/
+*.tmp

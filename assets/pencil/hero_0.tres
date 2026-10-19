@@ -1,0 +1,174 @@
+[gd_resource type="SpriteFrames" load_steps=46 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pencil/hero_0-idle.png" id="idle"]
+
+[ext_resource type="Texture2D" path="res://assets/pencil/hero_0-guard.png" id="guard"]
+
+[ext_resource type="Texture2D" path="res://assets/pencil/hero_0-run.png" id="run"]
+
+[ext_resource type="Texture2D" path="res://assets/pencil/hero_0-hurt.png" id="hurt"]
+
+[ext_resource type="Texture2D" path="res://assets/pencil/hero_0-dodge.png" id="dodge"]
+
+[ext_resource type="Texture2D" path="res://assets/pencil/hero_0-special.png" id="special"]
+
+[ext_resource type="Texture2D" path="res://assets/pencil/hero_0-ranged.png" id="ranged"]
+
+[ext_resource type="Texture2D" path="res://assets/pencil/hero_0-windup.png" id="windup"]
+
+[ext_resource type="Texture2D" path="res://assets/pencil/hero_0-attack.png" id="attack"]
+
+[ext_resource type="Texture2D" path="res://assets/pencil/hero_0-attack_2.png" id="attack_2"]
+
+[ext_resource type="Texture2D" path="res://assets/pencil/hero_0-attack_3.png" id="attack_3"]
+
+[sub_resource type="AtlasTexture" id="f1"]
+atlas = ExtResource("idle")
+region = Rect2(0, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f2"]
+atlas = ExtResource("guard")
+region = Rect2(0, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f3"]
+atlas = ExtResource("run")
+region = Rect2(0, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f4"]
+atlas = ExtResource("run")
+region = Rect2(512, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f5"]
+atlas = ExtResource("run")
+region = Rect2(1024, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f6"]
+atlas = ExtResource("run")
+region = Rect2(1536, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f7"]
+atlas = ExtResource("run")
+region = Rect2(2048, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f8"]
+atlas = ExtResource("run")
+region = Rect2(2560, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f9"]
+atlas = ExtResource("run")
+region = Rect2(3072, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f10"]
+atlas = ExtResource("run")
+region = Rect2(3584, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f11"]
+atlas = ExtResource("hurt")
+region = Rect2(0, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f12"]
+atlas = ExtResource("dodge")
+region = Rect2(0, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f13"]
+atlas = ExtResource("dodge")
+region = Rect2(512, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f14"]
+atlas = ExtResource("dodge")
+region = Rect2(1024, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f15"]
+atlas = ExtResource("special")
+region = Rect2(0, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f16"]
+atlas = ExtResource("special")
+region = Rect2(512, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f17"]
+atlas = ExtResource("special")
+region = Rect2(1024, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f18"]
+atlas = ExtResource("ranged")
+region = Rect2(0, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f19"]
+atlas = ExtResource("ranged")
+region = Rect2(512, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f20"]
+atlas = ExtResource("ranged")
+region = Rect2(1024, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f21"]
+atlas = ExtResource("windup")
+region = Rect2(0, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f22"]
+atlas = ExtResource("windup")
+region = Rect2(512, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f23"]
+atlas = ExtResource("attack")
+region = Rect2(0, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f24"]
+atlas = ExtResource("attack")
+region = Rect2(512, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f25"]
+atlas = ExtResource("attack")
+region = Rect2(1024, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f26"]
+atlas = ExtResource("attack")
+region = Rect2(1536, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f27"]
+atlas = ExtResource("attack_2")
+region = Rect2(0, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f28"]
+atlas = ExtResource("attack_2")
+region = Rect2(512, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f29"]
+atlas = ExtResource("attack_2")
+region = Rect2(1024, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f30"]
+atlas = ExtResource("attack_2")
+region = Rect2(1536, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f31"]
+atlas = ExtResource("attack_3")
+region = Rect2(0, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f32"]
+atlas = ExtResource("attack_3")
+region = Rect2(512, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f33"]
+atlas = ExtResource("attack_3")
+region = Rect2(1024, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f34"]
+atlas = ExtResource("attack_3")
+region = Rect2(1536, 0, 512, 416)
+
+[resource]
+animations = [
+{"frames": [{"duration": 0.800000000, "texture": SubResource("f1")}], "loop": true, "name": &"idle", "speed": 1.0},
+{"frames": [{"duration": 0.600000000, "texture": SubResource("f2")}], "loop": true, "name": &"guard", "speed": 1.0},
+{"frames": [{"duration": 0.095000000, "texture": SubResource("f3")}, {"duration": 0.095000000, "texture": SubResource("f4")}, {"duration": 0.095000000, "texture": SubResource("f5")}, {"duration": 0.095000000, "texture": SubResource("f6")}, {"duration": 0.095000000, "texture": SubResource("f7")}, {"duration": 0.095000000, "texture": SubResource("f8")}, {"duration": 0.095000000, "texture": SubResource("f9")}, {"duration": 0.095000000, "texture": SubResource("f10")}], "loop": true, "name": &"run", "speed": 1.0},
+{"frames": [{"duration": 0.220000000, "texture": SubResource("f11")}], "loop": false, "name": &"hurt", "speed": 1.0},
+{"frames": [{"duration": 0.050000000, "texture": SubResource("f12")}, {"duration": 0.080000000, "texture": SubResource("f13")}, {"duration": 0.060000000, "texture": SubResource("f14")}], "loop": false, "name": &"dodge", "speed": 1.0},
+{"frames": [{"duration": 0.200000000, "texture": SubResource("f15")}, {"duration": 0.180000000, "texture": SubResource("f16")}, {"duration": 0.120000000, "texture": SubResource("f17")}], "loop": false, "name": &"special", "speed": 1.0},
+{"frames": [{"duration": 0.156400000, "texture": SubResource("f18")}, {"duration": 0.068000000, "texture": SubResource("f19")}, {"duration": 0.115600000, "texture": SubResource("f20")}], "loop": false, "name": &"ranged", "speed": 1.0},
+{"frames": [{"duration": 0.350000000, "texture": SubResource("f21")}, {"duration": 0.350000000, "texture": SubResource("f22")}], "loop": false, "name": &"windup", "speed": 1.0},
+{"frames": [{"duration": 0.073440000, "texture": SubResource("f23")}, {"duration": 0.089760000, "texture": SubResource("f24")}, {"duration": 0.134400000, "texture": SubResource("f25")}, {"duration": 0.182400000, "texture": SubResource("f26")}], "loop": false, "name": &"attack", "speed": 1.0},
+{"frames": [{"duration": 0.073440000, "texture": SubResource("f27")}, {"duration": 0.089760000, "texture": SubResource("f28")}, {"duration": 0.134400000, "texture": SubResource("f29")}, {"duration": 0.182400000, "texture": SubResource("f30")}], "loop": false, "name": &"attack_2", "speed": 1.0},
+{"frames": [{"duration": 0.073440000, "texture": SubResource("f31")}, {"duration": 0.089760000, "texture": SubResource("f32")}, {"duration": 0.134400000, "texture": SubResource("f33")}, {"duration": 0.182400000, "texture": SubResource("f34")}], "loop": false, "name": &"attack_3", "speed": 1.0}
+]

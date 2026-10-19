@@ -1,0 +1,43 @@
+{
+  "type": "escape",
+  "spawn_min_distance": 440.0,
+  "spawn_margin": 80.0,
+  "spawn_spacing": 140.0,
+  "id": "archivio_fuga",
+  "schema_version": 1,
+  "environment": "fuga",
+  "stage": {
+    "left": 70,
+    "right": 3600,
+    "player_x": 220
+  },
+  "interludes": {
+    "before": [],
+    "after": [
+      "pagina_5"
+    ]
+  },
+  "initial_enemies": 2,
+  "reinforcements": {
+    "count": 2,
+    "interval": 6,
+    "max_alive": 4
+  },
+  "allies": {
+    "visible": false,
+    "echo_enabled": false,
+    "echo_interval": 2.4,
+    "echo_max_x": 520,
+    "echo_damage": 12
+  },
+  "exit": {
+    "x": 3350,
+    "lane": 1,
+    "tolerance": 15
+  },
+  "text_id": "archivio_fuga",
+  "initial_roles": [
+    "runner",
+    "archer"
+  ]
+}

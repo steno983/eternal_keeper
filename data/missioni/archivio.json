@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "archivio",
+  "texts": "capitolo_01",
+  "prologue": true,
+  "interludes_before": [
+    "pagina_1",
+    "pagina_2"
+  ],
+  "levels": [
+    "fuga_archivio",
+    "orologio"
+  ],
+  "ending": "victory",
+  "presentation": {
+    "reward_background": "res://assets/archive/table.png",
+    "ending_background": "res://assets/archive/table.png",
+    "comics": {
+      "temple": [
+        "res://assets/archive/temple-panel-1.png",
+        "res://assets/archive/temple-panel-2.png",
+        "res://assets/archive/temple-panel-3.png"
+      ],
+      "daleal": [
+        "res://assets/archive/daleal-panel-1.png",
+        "res://assets/archive/daleal-panel-2.png",
+        "res://assets/archive/daleal-panel-3.png"
+      ],
+      "inn": [
+        "res://assets/archive/inn-panel-1.png",
+        "res://assets/archive/inn-panel-2.png",
+        "res://assets/archive/inn-panel-3.png"
+      ],
+      "orologio_comic_entry": [
+        "res://assets/orologio/comic_entry-panel-1.png",
+        "res://assets/orologio/comic_entry-panel-2.png",
+        "res://assets/orologio/comic_entry-panel-3.png"
+      ],
+      "orologio_comic_end": [
+        "res://assets/orologio/comic_end-panel-1.png",
+        "res://assets/orologio/comic_end-panel-2.png",
+        "res://assets/orologio/comic_end-panel-3.png"
+      ],
+      "orologio_route_seal": [
+        "res://assets/orologio/route-seal-panel-1.png",
+        "res://assets/orologio/route-seal-panel-2.png",
+        "res://assets/orologio/route-seal-panel-3.png"
+      ],
+      "orologio_route_chamber": [
+        "res://assets/orologio/route-chamber-panel-1.png",
+        "res://assets/orologio/route-chamber-panel-2.png",
+        "res://assets/orologio/route-chamber-panel-3.png"
+      ]
+    }
+  },
+  "entrance": {
+    "style": "pencil",
+    "write": 0.65,
+    "hold": 0.85,
+    "erase": 0.5
+  }
+}

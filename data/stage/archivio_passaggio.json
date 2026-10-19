@@ -1,0 +1,149 @@
+{
+  "type": "resistance",
+  "duration": 25.0,
+  "anchor_x": 760.0,
+  "waves": [
+    {
+      "id": "first_contact",
+      "at": 0,
+      "entries": [
+        {
+          "offset": 0,
+          "side": -1,
+          "lane": 1,
+          "archetype": "guard"
+        },
+        {
+          "offset": 0.8,
+          "side": 1,
+          "lane": 1,
+          "archetype": "guard"
+        }
+      ]
+    },
+    {
+      "id": "crossfire",
+      "at": 6,
+      "entries": [
+        {
+          "offset": 0,
+          "side": 1,
+          "lane": 0,
+          "archetype": "archer"
+        },
+        {
+          "offset": 1.2,
+          "side": -1,
+          "lane": 2,
+          "archetype": "guard"
+        }
+      ]
+    },
+    {
+      "id": "staggered",
+      "at": 12,
+      "entries": [
+        {
+          "offset": 0,
+          "side": -1,
+          "lane": 0,
+          "archetype": "runner"
+        },
+        {
+          "offset": 1,
+          "side": 1,
+          "lane": 2,
+          "archetype": "runner"
+        },
+        {
+          "offset": 2.2,
+          "side": -1,
+          "lane": 1,
+          "archetype": "archer"
+        }
+      ]
+    },
+    {
+      "id": "last_push",
+      "at": 17,
+      "entries": [
+        {
+          "offset": 0,
+          "side": 1,
+          "lane": 1,
+          "archetype": "brute"
+        },
+        {
+          "offset": 0.9,
+          "side": -1,
+          "lane": 2,
+          "archetype": "runner"
+        },
+        {
+          "offset": 2.2,
+          "side": 1,
+          "lane": 0,
+          "archetype": "archer"
+        }
+      ]
+    }
+  ],
+  "warning_time": 1.2,
+  "spawn_distance": 580,
+  "archetypes": {
+    "guard": {
+      "kind": "raider",
+      "hp": 48,
+      "speed": 108,
+      "windup": 0.7
+    },
+    "runner": {
+      "kind": "raider",
+      "hp": 34,
+      "speed": 155,
+      "windup": 0.55
+    },
+    "archer": {
+      "kind": "archer",
+      "hp": 38,
+      "speed": 96,
+      "windup": 0.8
+    },
+    "brute": {
+      "kind": "raider",
+      "hp": 82,
+      "speed": 72,
+      "windup": 1.15,
+      "visual": 2
+    }
+  },
+  "entry_lane_hold": 2.4,
+  "id": "archivio_passaggio",
+  "schema_version": 1,
+  "environment": "passaggio",
+  "stage": {
+    "left": 70,
+    "right": 1500,
+    "player_x": 880
+  },
+  "interludes": {
+    "before": [],
+    "after": [
+      "pagina_4"
+    ]
+  },
+  "initial_enemies": 0,
+  "reinforcements": {
+    "count": 0,
+    "interval": 6,
+    "max_alive": 4
+  },
+  "allies": {
+    "visible": true,
+    "echo_enabled": true,
+    "echo_interval": 2.4,
+    "echo_max_x": 520,
+    "echo_damage": 12
+  },
+  "text_id": "archivio_passaggio"
+}

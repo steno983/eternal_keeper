@@ -1,0 +1,152 @@
+{
+  "type": "scrolling",
+  "id": "orologio_discesa",
+  "schema_version": 1,
+  "environment": "orologio_discesa",
+  "stage": {
+    "left": 70,
+    "right": 6200,
+    "player_x": 300
+  },
+  "interludes": {
+    "before": [],
+    "after": [
+      "orologio_varco"
+    ]
+  },
+  "initial_enemies": 0,
+  "reinforcements": {
+    "count": 0,
+    "interval": 6,
+    "max_alive": 4
+  },
+  "allies": {
+    "visible": false,
+    "echo_enabled": false,
+    "echo_interval": 2.4,
+    "echo_max_x": 520,
+    "echo_damage": 12
+  },
+  "text_id": "orologio_discesa",
+  "exit": {
+    "x": 6000,
+    "lane": -1,
+    "tolerance": 20
+  },
+  "warning_time": 1.2,
+  "spawn_distance": 640,
+  "encounters": [
+    {
+      "id": "orologio_discesa_1",
+      "at_x": 950,
+      "gate_x": 1630,
+      "entries": [
+        {
+          "archetype": "guard",
+          "side": 1,
+          "lane": 0,
+          "offset": 0.0
+        },
+        {
+          "archetype": "archer",
+          "side": 1,
+          "lane": 1,
+          "offset": 0.65
+        },
+        {
+          "archetype": "runner",
+          "side": -1,
+          "lane": 2,
+          "offset": 1.3
+        }
+      ]
+    },
+    {
+      "id": "orologio_discesa_2",
+      "at_x": 2350,
+      "gate_x": 3030,
+      "entries": [
+        {
+          "archetype": "caster",
+          "side": 1,
+          "lane": 1,
+          "offset": 0.0
+        },
+        {
+          "archetype": "guard",
+          "side": 1,
+          "lane": 2,
+          "offset": 0.65
+        },
+        {
+          "archetype": "archer",
+          "side": -1,
+          "lane": 0,
+          "offset": 1.3
+        }
+      ]
+    },
+    {
+      "id": "orologio_discesa_3",
+      "at_x": 3750,
+      "gate_x": 4430,
+      "entries": [
+        {
+          "archetype": "brute",
+          "side": 1,
+          "lane": 2,
+          "offset": 0.0
+        },
+        {
+          "archetype": "runner",
+          "side": 1,
+          "lane": 0,
+          "offset": 0.65
+        },
+        {
+          "archetype": "guard",
+          "side": -1,
+          "lane": 1,
+          "offset": 1.3
+        },
+        {
+          "archetype": "archer",
+          "side": 1,
+          "lane": 2,
+          "offset": 1.9500000000000002
+        }
+      ]
+    },
+    {
+      "id": "orologio_discesa_4",
+      "at_x": 5100,
+      "gate_x": 5780,
+      "entries": [
+        {
+          "archetype": "caster",
+          "side": 1,
+          "lane": 0,
+          "offset": 0.0
+        },
+        {
+          "archetype": "brute",
+          "side": 1,
+          "lane": 1,
+          "offset": 0.65
+        },
+        {
+          "archetype": "runner",
+          "side": -1,
+          "lane": 2,
+          "offset": 1.3
+        },
+        {
+          "archetype": "guard",
+          "side": 1,
+          "lane": 0,
+          "offset": 1.9500000000000002
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "orologio",
+  "text_id": "orologio",
+  "stages": [
+    "orologio_discesa",
+    "orologio_sigillo",
+    "orologio_camera"
+  ],
+  "interludes": {
+    "before": [
+      "orologio_rapporto"
+    ],
+    "after": [
+      "orologio_recupero"
+    ]
+  },
+  "reward": {
+    "type": "skill_upgrade",
+    "choices": 3,
+    "heal": 20,
+    "mana": 30
+  }
+}

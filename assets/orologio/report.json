@@ -1,0 +1,86 @@
+{
+  "descent": {
+    "size": [
+      1659,
+      948
+    ],
+    "mode": "RGB"
+  },
+  "seal": {
+    "size": [
+      1660,
+      948
+    ],
+    "mode": "RGB"
+  },
+  "chamber": {
+    "size": [
+      1659,
+      948
+    ],
+    "mode": "RGB"
+  },
+  "terrain": {
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "floor_crop": [
+      0,
+      574,
+      1672,
+      930
+    ]
+  },
+  "comic_entry": {
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "gutters": [
+      607,
+      1155
+    ]
+  },
+  "comic_end": {
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "gutters": [
+      609,
+      1153
+    ]
+  },
+  "pillar": {
+    "size": [
+      819,
+      1920
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_crop": [
+      242,
+      13,
+      575,
+      1903
+    ],
+    "runtime_size": [
+      333,
+      1890
+    ]
+  },
+  "floor": {
+    "size": [
+      2170,
+      725
+    ],
+    "mode": "RGB"
+  }
+}

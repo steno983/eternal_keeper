@@ -1,0 +1,224 @@
+{
+  "hero_0": {
+    "idle": {
+      "frames": 16,
+      "seconds": 0.92,
+      "loop": true
+    },
+    "run": {
+      "frames": 32,
+      "seconds": 0.52,
+      "loop": true
+    },
+    "attack": {
+      "frames": 32,
+      "seconds": 0.48,
+      "loop": false
+    },
+    "ranged": {
+      "frames": 16,
+      "seconds": 0.42,
+      "loop": false
+    },
+    "special": {
+      "frames": 16,
+      "seconds": 0.5,
+      "loop": false
+    },
+    "guard": {
+      "frames": 12,
+      "seconds": 0.84,
+      "loop": true
+    },
+    "hurt": {
+      "frames": 8,
+      "seconds": 0.22,
+      "loop": false
+    },
+    "dodge": {
+      "frames": 12,
+      "seconds": 0.19,
+      "loop": false
+    }
+  },
+  "hero_1": {
+    "idle": {
+      "frames": 16,
+      "seconds": 0.92,
+      "loop": true
+    },
+    "run": {
+      "frames": 32,
+      "seconds": 0.52,
+      "loop": true
+    },
+    "attack": {
+      "frames": 32,
+      "seconds": 0.36,
+      "loop": false
+    },
+    "ranged": {
+      "frames": 16,
+      "seconds": 0.3,
+      "loop": false
+    },
+    "special": {
+      "frames": 16,
+      "seconds": 0.5,
+      "loop": false
+    },
+    "guard": {
+      "frames": 8,
+      "seconds": 0.6,
+      "loop": true
+    },
+    "hurt": {
+      "frames": 8,
+      "seconds": 0.22,
+      "loop": false
+    },
+    "dodge": {
+      "frames": 12,
+      "seconds": 0.19,
+      "loop": false
+    }
+  },
+  "hero_2": {
+    "idle": {
+      "frames": 16,
+      "seconds": 0.92,
+      "loop": true
+    },
+    "run": {
+      "frames": 32,
+      "seconds": 0.52,
+      "loop": true
+    },
+    "attack": {
+      "frames": 32,
+      "seconds": 0.42,
+      "loop": false
+    },
+    "ranged": {
+      "frames": 16,
+      "seconds": 0.34,
+      "loop": false
+    },
+    "special": {
+      "frames": 16,
+      "seconds": 0.5,
+      "loop": false
+    },
+    "guard": {
+      "frames": 8,
+      "seconds": 0.6,
+      "loop": true
+    },
+    "hurt": {
+      "frames": 8,
+      "seconds": 0.22,
+      "loop": false
+    },
+    "dodge": {
+      "frames": 12,
+      "seconds": 0.19,
+      "loop": false
+    }
+  },
+  "enemy_0": {
+    "idle": {
+      "frames": 8,
+      "seconds": 0.68,
+      "loop": true
+    },
+    "run": {
+      "frames": 32,
+      "seconds": 0.8,
+      "loop": true
+    },
+    "attack": {
+      "frames": 24,
+      "seconds": 0.54,
+      "loop": false
+    },
+    "ranged": {
+      "frames": 24,
+      "seconds": 0.54,
+      "loop": false
+    },
+    "windup": {
+      "frames": 8,
+      "seconds": 0.7,
+      "loop": false
+    },
+    "hurt": {
+      "frames": 8,
+      "seconds": 0.22,
+      "loop": false
+    }
+  },
+  "enemy_1": {
+    "idle": {
+      "frames": 8,
+      "seconds": 0.68,
+      "loop": true
+    },
+    "run": {
+      "frames": 24,
+      "seconds": 0.6000000000000001,
+      "loop": true
+    },
+    "attack": {
+      "frames": 16,
+      "seconds": 0.52,
+      "loop": false
+    },
+    "ranged": {
+      "frames": 16,
+      "seconds": 0.52,
+      "loop": false
+    },
+    "windup": {
+      "frames": 8,
+      "seconds": 0.7,
+      "loop": false
+    },
+    "hurt": {
+      "frames": 8,
+      "seconds": 0.22,
+      "loop": false
+    }
+  },
+  "enemy_2": {
+    "idle": {
+      "frames": 8,
+      "seconds": 0.68,
+      "loop": true
+    },
+    "run": {
+      "frames": 32,
+      "seconds": 0.8,
+      "loop": true
+    },
+    "attack": {
+      "frames": 24,
+      "seconds": 0.54,
+      "loop": false
+    },
+    "ranged": {
+      "frames": 24,
+      "seconds": 0.54,
+      "loop": false
+    },
+    "windup": {
+      "frames": 8,
+      "seconds": 0.7,
+      "loop": false
+    },
+    "hurt": {
+      "frames": 8,
+      "seconds": 0.22,
+      "loop": false
+    }
+  }
+}

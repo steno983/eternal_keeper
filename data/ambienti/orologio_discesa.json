@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "orologio_discesa",
+  "shader": "res://assets/archive/graphite.gdshader",
+  "layers": [
+    {
+      "kind": "texture",
+      "texture": "res://assets/orologio/descent.png",
+      "depth": 0.12,
+      "rect": [
+        -200,
+        -145,
+        2240,
+        1035
+      ],
+      "alpha": 0.66,
+      "repeat_x": true
+    },
+    {
+      "kind": "pillars",
+      "texture": "res://assets/orologio/pillar.png",
+      "depth": 0.48,
+      "anchors": [
+        -240,
+        780,
+        1800
+      ],
+      "region": [
+        0,
+        0,
+        333,
+        1890
+      ],
+      "rect": [
+        0,
+        -20,
+        155,
+        620
+      ],
+      "alpha": 0.43,
+      "repeat_step": 1800
+    },
+    {
+      "kind": "tiles",
+      "texture": "res://assets/orologio/floor.png",
+      "depth": 1.0,
+      "rect": [
+        0,
+        432,
+        1024,
+        342
+      ],
+      "tiles": [
+        -1,
+        4
+      ]
+    },
+    {
+      "kind": "pillars",
+      "texture": "res://assets/orologio/pillar.png",
+      "depth": 1.22,
+      "anchors": [
+        -10,
+        1580
+      ],
+      "region": [
+        0,
+        0,
+        333,
+        1890
+      ],
+      "rect": [
+        0,
+        -145,
+        245,
+        980
+      ],
+      "alpha": 0.96,
+      "foreground": true,
+      "repeat_step": 2400
+    }
+  ]
+}

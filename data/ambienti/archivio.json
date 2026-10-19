@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "archivio",
+  "shader": "res://assets/archive/graphite.gdshader",
+  "layers": [
+    {
+      "kind": "texture",
+      "texture": "res://assets/archive/archive.png",
+      "depth": 0.12,
+      "rect": [
+        -200,
+        -145,
+        1840,
+        1035
+      ],
+      "alpha": 0.62,
+      "repeat_x": true
+    },
+    {
+      "kind": "arches",
+      "texture": "res://assets/pencil/ruin.png",
+      "depth": 0.48,
+      "anchors": [
+        -300,
+        560,
+        1420
+      ],
+      "region": [
+        100,
+        60,
+        150,
+        600
+      ],
+      "repeat_step": 2580
+    },
+    {
+      "kind": "tiles",
+      "texture": "res://assets/pencil/floor.png",
+      "depth": 1,
+      "rect": [
+        0,
+        432,
+        1024,
+        342
+      ],
+      "tiles": [
+        -1,
+        4
+      ]
+    },
+    {
+      "kind": "pillars",
+      "texture": "res://assets/pencil/ruin.png",
+      "depth": 1.22,
+      "anchors": [
+        -150,
+        1500
+      ],
+      "rect": [
+        0,
+        -100,
+        210,
+        840
+      ],
+      "region": [
+        100,
+        60,
+        150,
+        600
+      ],
+      "alpha": 0.96,
+      "foreground": true,
+      "repeat_step": 2400
+    }
+  ]
+}

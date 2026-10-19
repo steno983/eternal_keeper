@@ -1,0 +1,165 @@
+{
+  "source": "C:\\Users\\stefa\\.codex\\generated_images\\01a14f15-e0c8-75f1-b1b8-4f67d141bebc\\exec-ba88abf3-ca9a-4744-8a47-af809565da27.png",
+  "prompt": "Production animated enemy sprite sheet for a hand-drawn D&D side-scrolling fighting game. Match reference drawing technique only: fine graphite and ink crosshatching, muted watercolor accents, realistic adult anatomy. ONE coherent new character identity in ALL 16 cells: mysterious hooded human arcanist in long dark indigo/plum robes, bone half-mask, slim silhouette, carved staff with a small violet crystal. Side-on 3/4 view facing RIGHT, full figure, staff and hands visible, hovering robe so no walking-leg cycle. TRUE TRANSPARENT background. EXACT 4 columns by 4 rows, evenly spaced equal cells, generous transparent margins, no grid lines, no text, no labels, no floor, no scenery. ROW1 four idle poses: subtle breathing and small floating robe motion. ROW2 four hovering travel poses with robe flowing backward, stable height and coherent staff. ROW3 four CAST ATTACK poses in order: staff drawn back, staff raised gathering purple ink energy, staff thrust toward right releasing small magic, recover. ROW4 four recoil/hurt poses: flinch backward then recover. Keep same head size, body proportions, costume, staff design and grounded drawing quality across all cells. No large spell clouds, no duplicate bodies in any cell, no detached limbs. Wide sheet 2048x2048 or larger square. Each figure centered in its own cell and occupying approximately 75% cell height.",
+  "tool": "built-in imagegen",
+  "reference": "assets/pencil/enemy_0-idle.png, drawing style only",
+  "original_size": [
+    1254,
+    1254
+  ],
+  "runtime_cell": [
+    512,
+    416
+  ],
+  "pivot": [
+    256,
+    400
+  ],
+  "preparation": "Fixed 4x4 grid, one common scale and baseline, alpha preserved; whole figures only.",
+  "frames": [
+    {
+      "frame": 0,
+      "bounds": [
+        89,
+        72,
+        416,
+        401
+      ]
+    },
+    {
+      "frame": 1,
+      "bounds": [
+        96,
+        106,
+        422,
+        401
+      ]
+    },
+    {
+      "frame": 2,
+      "bounds": [
+        91,
+        105,
+        408,
+        401
+      ]
+    },
+    {
+      "frame": 3,
+      "bounds": [
+        99,
+        104,
+        407,
+        395
+      ]
+    },
+    {
+      "frame": 4,
+      "bounds": [
+        106,
+        70,
+        422,
+        385
+      ]
+    },
+    {
+      "frame": 5,
+      "bounds": [
+        90,
+        85,
+        422,
+        400
+      ]
+    },
+    {
+      "frame": 6,
+      "bounds": [
+        90,
+        80,
+        422,
+        398
+      ]
+    },
+    {
+      "frame": 7,
+      "bounds": [
+        89,
+        68,
+        397,
+        400
+      ]
+    },
+    {
+      "frame": 8,
+      "bounds": [
+        89,
+        69,
+        422,
+        400
+      ]
+    },
+    {
+      "frame": 9,
+      "bounds": [
+        90,
+        68,
+        422,
+        400
+      ]
+    },
+    {
+      "frame": 10,
+      "bounds": [
+        90,
+        69,
+        422,
+        390
+      ]
+    },
+    {
+      "frame": 11,
+      "bounds": [
+        89,
+        75,
+        414,
+        400
+      ]
+    },
+    {
+      "frame": 12,
+      "bounds": [
+        107,
+        68,
+        422,
+        369
+      ]
+    },
+    {
+      "frame": 13,
+      "bounds": [
+        90,
+        68,
+        418,
+        369
+      ]
+    },
+    {
+      "frame": 14,
+      "bounds": [
+        99,
+        73,
+        422,
+        368
+      ]
+    },
+    {
+      "frame": 15,
+      "bounds": [
+        89,
+        68,
+        373,
+        371
+      ]
+    }
+  ]
+}

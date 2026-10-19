@@ -1,0 +1,171 @@
+{
+  "heroes": [
+    {
+      "name": "THOLGRIN",
+      "role": "CHIERICO DI OGHMA",
+      "special": "COLPO INFUOCATO"
+    },
+    {
+      "name": "LAYLA",
+      "role": "LAME PSIONICHE",
+      "special": "PASSO PSIONICO"
+    },
+    {
+      "name": "LUPINOR",
+      "role": "ECHO KNIGHT",
+      "special": "MANIFESTA ECO"
+    }
+  ],
+  "bridge_rooms": [
+    "Le porte in cenere",
+    "Il chiostro spezzato",
+    "La veglia delle braci",
+    "Il custode del ponte"
+  ],
+  "spell_names": [
+    "Dardo tracciante",
+    "Muro di fuoco",
+    "Scudo della fede",
+    "Colpo infuocato"
+  ],
+  "spell_descriptions": [
+    "Dardo radiante sulla tua corsia.",
+    "Anello di fiamme a terra: ferisce per 3 s.",
+    "Per 5 s: -35% danni, più mana e -12% ricarica delle altre magie al lancio.",
+    "Colonne di fuoco e luce lungo la corsia."
+  ],
+  "upgrades": [
+    {
+      "id": "orb",
+      "slot": 0,
+      "name": "Sfera esplosiva",
+      "desc": "Il dardo esplode all’impatto.",
+      "detail": "24 danni diretti + 18 ad area entro 115 passi.",
+      "path": "fire"
+    },
+    {
+      "id": "pierce",
+      "slot": 0,
+      "name": "Lancia di fuoco",
+      "desc": "Il dardo attraversa fino a tre nemici.",
+      "detail": "34 danni a ogni bersaglio sulla corsia.",
+      "path": "control"
+    },
+    {
+      "id": "fan",
+      "slot": 0,
+      "name": "Triplice scintilla",
+      "desc": "Un dardo su ciascuna delle tre corsie.",
+      "detail": "20 danni per dardo. Costo: 12 mana.",
+      "path": "control"
+    },
+    {
+      "id": "ash",
+      "slot": 1,
+      "name": "Terra di cenere",
+      "desc": "Il sigillo diventa una zona più ampia e duratura.",
+      "detail": "Raggio 185; dura 5 s invece di 3.",
+      "path": "control"
+    },
+    {
+      "id": "sanctuary",
+      "slot": 1,
+      "name": "Santuario ardente",
+      "desc": "Il sigillo cura Tholgrin mentre ci rimane dentro.",
+      "detail": "8 salute al secondo. Continua a ferire i nemici.",
+      "path": "ward"
+    },
+    {
+      "id": "eruption",
+      "slot": 1,
+      "name": "Eruzione",
+      "desc": "Il sigillo diventa una deflagrazione immediata.",
+      "detail": "75 danni e respinta; raggio 190. Nessuna zona.",
+      "path": "fire"
+    },
+    {
+      "id": "mirror",
+      "slot": 2,
+      "name": "Scudo del giudizio",
+      "desc": "La benedizione restituisce i danni subiti.",
+      "detail": "Ogni colpo infligge 20 danni ai nemici vicini.",
+      "path": "ward"
+    },
+    {
+      "id": "renewal",
+      "slot": 2,
+      "name": "Preghiera vitale",
+      "desc": "La benedizione rigenera anche la salute.",
+      "detail": "4 salute al secondo per 5 s, oltre al mana.",
+      "path": "ward"
+    },
+    {
+      "id": "aegis",
+      "slot": 2,
+      "name": "Egida di Oghma",
+      "desc": "La benedizione diventa uno scudo di assorbimento.",
+      "detail": "Assorbe 45 danni per 8 s; niente rigenerazione extra.",
+      "path": "ward"
+    },
+    {
+      "id": "judgment",
+      "slot": 3,
+      "name": "Giudizio di fuoco",
+      "desc": "La super investe tutte e tre le corsie.",
+      "detail": "45 danni per bersaglio; portata 620.",
+      "path": "control"
+    },
+    {
+      "id": "inferno",
+      "slot": 3,
+      "name": "Sentiero infernale",
+      "desc": "La super lascia tre sigilli ardenti sulla corsia.",
+      "detail": "50 danni iniziali + zone persistenti per 4 s.",
+      "path": "fire"
+    },
+    {
+      "id": "nova",
+      "slot": 3,
+      "name": "Nova sacra",
+      "desc": "La super esplode attorno a Tholgrin.",
+      "detail": "70 danni in ogni direzione e su tutte le corsie; raggio 320.",
+      "path": "control"
+    }
+  ],
+  "build_paths": {
+    "fire": {
+      "name": "Braci",
+      "color": "b94824",
+      "style": "Colpisci e lascia bruciare.",
+      "trait": "Le magie applicano Bruciatura: 3 danni/s per {duration} s.",
+      "duration": [
+        2.0,
+        4.0
+      ]
+    },
+    "ward": {
+      "name": "Custode",
+      "color": "398071",
+      "style": "Proteggiti e sostieni lo scontro.",
+      "trait": "Scudo della fede aggiunge {barrier} punti di assorbimento.",
+      "barrier": [
+        12.0,
+        24.0
+      ]
+    },
+    "control": {
+      "name": "Sigilli",
+      "color": "65618f",
+      "style": "Rallenta i gruppi e scegli la distanza.",
+      "trait": "Le magie rallentano del {slow}% per {duration} s.",
+      "slow": [
+        35,
+        50
+      ],
+      "duration": [
+        1.5,
+        2.5
+      ]
+    }
+  }
+}

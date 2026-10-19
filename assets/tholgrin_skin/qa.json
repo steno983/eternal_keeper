@@ -1,0 +1,134 @@
+{
+  "head": {
+    "slot": "head",
+    "size": [
+      233,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "torso": {
+    "slot": "torso",
+    "size": [
+      196,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "pelvis": {
+    "slot": "pelvis",
+    "size": [
+      256,
+      203
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "shield": {
+    "slot": "ponytail",
+    "size": [
+      159,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "upper_arm": {
+    "slot": "upper_arm",
+    "size": [
+      171,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "forearm": {
+    "slot": "forearm",
+    "size": [
+      131,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "mace_hand": {
+    "slot": "hand_blade",
+    "size": [
+      256,
+      102
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "cape": {
+    "slot": "cape",
+    "size": [
+      256,
+      181
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "thigh": {
+    "slot": "thigh",
+    "size": [
+      135,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "shin": {
+    "slot": "shin",
+    "size": [
+      122,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "boot": {
+    "slot": "boot",
+    "size": [
+      241,
+      144
+    ],
+    "alpha": [
+      0,
+      254
+    ]
+  },
+  "shield_hand": {
+    "slot": "scarf",
+    "size": [
+      194,
+      198
+    ],
+    "alpha": [
+      0,
+      254
+    ]
+  }
+}

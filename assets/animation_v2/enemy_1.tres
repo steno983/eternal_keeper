@@ -1,0 +1,61 @@
+[gd_resource type="SpriteFrames" load_steps=14 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/animation_v2/enemy_1-atlas.png" id="1"]
+
+[sub_resource type="AtlasTexture" id="f0"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 384, 320)
+
+[sub_resource type="AtlasTexture" id="f1"]
+atlas = ExtResource("1")
+region = Rect2(384, 0, 384, 320)
+
+[sub_resource type="AtlasTexture" id="f2"]
+atlas = ExtResource("1")
+region = Rect2(768, 0, 384, 320)
+
+[sub_resource type="AtlasTexture" id="f3"]
+atlas = ExtResource("1")
+region = Rect2(1152, 0, 384, 320)
+
+[sub_resource type="AtlasTexture" id="f4"]
+atlas = ExtResource("1")
+region = Rect2(0, 320, 384, 320)
+
+[sub_resource type="AtlasTexture" id="f5"]
+atlas = ExtResource("1")
+region = Rect2(384, 320, 384, 320)
+
+[sub_resource type="AtlasTexture" id="f6"]
+atlas = ExtResource("1")
+region = Rect2(768, 320, 384, 320)
+
+[sub_resource type="AtlasTexture" id="f7"]
+atlas = ExtResource("1")
+region = Rect2(1152, 320, 384, 320)
+
+[sub_resource type="AtlasTexture" id="f8"]
+atlas = ExtResource("1")
+region = Rect2(0, 640, 384, 320)
+
+[sub_resource type="AtlasTexture" id="f9"]
+atlas = ExtResource("1")
+region = Rect2(384, 640, 384, 320)
+
+[sub_resource type="AtlasTexture" id="f10"]
+atlas = ExtResource("1")
+region = Rect2(768, 640, 384, 320)
+
+[sub_resource type="AtlasTexture" id="f11"]
+atlas = ExtResource("1")
+region = Rect2(1152, 640, 384, 320)
+
+[resource]
+animations = [
+{"frames": [{"duration": 0.340000, "texture": SubResource("f0")}, {"duration": 0.340000, "texture": SubResource("f1")}], "loop": true, "name": &"idle", "speed": 1.0},
+{"frames": [{"duration": 0.100000, "texture": SubResource("f2")}, {"duration": 0.100000, "texture": SubResource("f3")}, {"duration": 0.100000, "texture": SubResource("f4")}, {"duration": 0.100000, "texture": SubResource("f5")}, {"duration": 0.100000, "texture": SubResource("f6")}, {"duration": 0.100000, "texture": SubResource("f7")}], "loop": true, "name": &"run", "speed": 1.0},
+{"frames": [{"duration": 0.120000, "texture": SubResource("f8")}, {"duration": 0.120000, "texture": SubResource("f9")}, {"duration": 0.100000, "texture": SubResource("f10")}, {"duration": 0.180000, "texture": SubResource("f11")}], "loop": false, "name": &"attack", "speed": 1.0},
+{"frames": [{"duration": 0.120000, "texture": SubResource("f8")}, {"duration": 0.120000, "texture": SubResource("f9")}, {"duration": 0.100000, "texture": SubResource("f10")}, {"duration": 0.180000, "texture": SubResource("f11")}], "loop": false, "name": &"ranged", "speed": 1.0},
+{"frames": [{"duration": 0.350000, "texture": SubResource("f8")}, {"duration": 0.350000, "texture": SubResource("f9")}], "loop": false, "name": &"windup", "speed": 1.0},
+{"frames": [{"duration": 0.100000, "texture": SubResource("f10")}, {"duration": 0.120000, "texture": SubResource("f11")}], "loop": false, "name": &"hurt", "speed": 1.0}
+]

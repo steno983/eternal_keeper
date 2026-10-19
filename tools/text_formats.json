@@ -1,0 +1,139 @@
+{
+  "interfaccia": {
+    "salute_d_d": [
+      "%d",
+      "%d"
+    ],
+    "luce_livello_d": [
+      "%d"
+    ],
+    "mana_d_100": [
+      "%d"
+    ],
+    "intesa_d_100": [
+      "%d"
+    ],
+    "capitolo_1_fuga_d_3": [
+      "%d"
+    ],
+    "stanza_d_3": [
+      "%d"
+    ],
+    "custode_d_d": [
+      "%d",
+      "%d"
+    ],
+    "d_avversari_rimasti": [
+      "%d"
+    ],
+    "s_1f_s_s": [
+      "%s",
+      "%.1f",
+      "%s"
+    ],
+    "scudo_d": [
+      "%d"
+    ],
+    "1f_s": [
+      "%.1f"
+    ],
+    "pronta_d_mana": [
+      "%d"
+    ],
+    "d_scegli": [
+      "%d"
+    ],
+    "d_avversari_sconfitti_d_02d_di_battaglia": [
+      "%d",
+      "%d",
+      "%02d"
+    ],
+    "sul_ponte_delle_braci_dopo_la_stanza_d": [
+      "%d"
+    ],
+    "livello_d_d_riposo_20_salute_30_mana_intesa_d_100": [
+      "%d",
+      "%d",
+      "%d"
+    ],
+    "s_s": [
+      "%s",
+      "%s"
+    ],
+    "ricarica_2f_2f_s": [
+      "%.2f",
+      "%.2f"
+    ],
+    "stanza_d": [
+      "%d"
+    ],
+    "d_avversari_sconfitti_d_02d_di_battaglia_2": [
+      "%d",
+      "%d",
+      "%02d"
+    ],
+    "tholgrin_livello_d": [
+      "%d"
+    ],
+    "d_mana_2f_s": [
+      "%d",
+      "%.2f"
+    ],
+    "d_mana": [
+      "%d"
+    ],
+    "resistance_waves": [
+      "%d",
+      "%d",
+      "%s"
+    ],
+    "resistance_timer": [
+      "%02d",
+      "%02d"
+    ],
+    "resistance_header": [
+      "%d",
+      "%d"
+    ],
+    "entry_position": [
+      "%s",
+      "%s"
+    ],
+    "entry_countdown": [
+      "%.1f"
+    ],
+    "livello_d_di_d": [
+      "%d",
+      "%d"
+    ],
+    "livello_stage": [
+      "%d",
+      "%d",
+      "%d"
+    ],
+    "sync_objective": [
+      "%d",
+      "%d"
+    ],
+    "upgrade_carried": [
+      "%s",
+      "%s"
+    ],
+    "road_fight": [
+      "%d"
+    ],
+    "road_advance": [
+      "%d",
+      "%d"
+    ]
+  },
+  "capitolo_01.rooms": {
+    "hold_progress": [
+      "%d",
+      "%%"
+    ],
+    "resistance_progress": [
+      "%d"
+    ]
+  }
+}

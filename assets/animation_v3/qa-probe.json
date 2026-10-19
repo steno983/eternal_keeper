@@ -1,0 +1,14 @@
+{
+  "hero_0": {
+    "run": {
+      "frames": 32,
+      "seconds": 0.52,
+      "loop": true
+    },
+    "attack": {
+      "frames": 32,
+      "seconds": 0.48,
+      "loop": false
+    }
+  }
+}

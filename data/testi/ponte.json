@@ -1,0 +1,69 @@
+{
+  "_note": "Dialoghi provvisori dell’arena del ponte. Non fanno parte delle sessioni della campagna.",
+  "titles": [
+    "Un momento per respirare",
+    "Il peso dello scudo",
+    "Tre voci sul ponte"
+  ],
+  "tails": [
+    [
+      100,
+      95,
+      240
+    ],
+    [
+      100,
+      220,
+      200
+    ],
+    [
+      320,
+      100,
+      320
+    ]
+  ],
+  "beats": [
+    [
+      {
+        "hero": 0,
+        "text": "Le braci si placano. Ma il ponte non è ancora nostro."
+      },
+      {
+        "hero": 1,
+        "text": "Due minuti per respirare... poi torno davanti."
+      },
+      {
+        "hero": 2,
+        "text": "Sediamoci al fuoco. Terrò d’occhio il passaggio."
+      }
+    ],
+    [
+      {
+        "hero": 0,
+        "text": "Questo scudo regge. Io comincio a sentire il peso."
+      },
+      {
+        "hero": 2,
+        "text": "Lascia che la prossima ombra incontri la mia eco."
+      },
+      {
+        "hero": 1,
+        "text": "Prima rendiamo il tuo fuoco ancora più cattivo."
+      }
+    ],
+    [
+      {
+        "hero": 2,
+        "text": "Laggiù. Qualcuno sta aspettando proprio noi."
+      },
+      {
+        "hero": 0,
+        "text": "Ci muoveremo insieme. Nessuno resta indietro."
+      },
+      {
+        "hero": 2,
+        "text": "Al tuo segnale. Tre voci, un solo colpo."
+      }
+    ]
+  ]
+}

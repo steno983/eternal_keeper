@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "fuga_archivio",
+  "text_id": "fuga_archivio",
+  "stages": [
+    "archivio_scale",
+    "archivio_passaggio",
+    "archivio_fuga"
+  ],
+  "interludes": {
+    "before": [],
+    "after": []
+  },
+  "reward": {
+    "type": "skill_upgrade",
+    "choices": 3,
+    "heal": 20,
+    "mana": 30
+  }
+}

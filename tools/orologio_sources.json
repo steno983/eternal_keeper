@@ -1,0 +1,55 @@
+{
+  "descent": {
+    "source": "C:\\Users\\stefa\\.codex\\generated_images\\01a14f15-e0c8-75f1-b1b8-4f67d141bebc\\exec-46887208-42f4-42f5-8cc0-d8a71fdf02b9.png",
+    "prompt": "Production game illustration, graphite pencil and fine ink crosshatching on pale ivory paper. Strictly MONOCHROME black gray graphite, no gold, no blue, no orange, no colored lights. Authentic hand-drawn D&D notebook, intricate but readable silhouettes, pale midtones, dark cavities, no text, no logos, no interface, no characters, no borders. Wide landscape 16:9, approximately 1792x1024. SIDE-ON fighting-game scenery, frontal elevation, no vanishing-point floor, horizon/base of wall at lower 65%; empty lower third for gameplay ground. Ancient Netherese catacombs below Old Tantras. A descending funerary gallery: carved rectangular burial niches, broken limestone sarcophagi, worn Netherese angular runes without legible letters, distant archways and hanging roots. Open rhythm of crypt bays along a straight side-on wall. This is a new catacomb, not a library, no bookshelves. Architectural backdrop only.",
+    "transparent_background": false,
+    "reference": []
+  },
+  "seal": {
+    "source": "C:\\Users\\stefa\\.codex\\generated_images\\01a14f15-e0c8-75f1-b1b8-4f67d141bebc\\exec-735eafc9-b56d-4133-b69d-2a8bf1652596.png",
+    "prompt": "Production game illustration, graphite pencil and fine ink crosshatching on pale ivory paper. Strictly MONOCHROME black gray graphite, no gold, no blue, no orange, no colored lights. Authentic hand-drawn D&D notebook, intricate but readable silhouettes, pale midtones, dark cavities, no text, no logos, no interface, no characters, no borders. Wide landscape 16:9, approximately 1792x1024. SIDE-ON fighting-game scenery, frontal elevation, no vanishing-point floor, horizon/base of wall at lower 65%; empty lower third for gameplay ground. Ancient Netherese catacombs below Old Tantras. A monumental circular STONE SEAL embedded in a funerary wall, layered concentric stone bands carved with abstract geometric Netherese signs. Recessed unlit niches, cracked slabs, fine dust and roots. The seal is centered upper-middle, large readable circular motif behind combat. Different room from gallery; no library, no clock face, no digits, no hands.",
+    "transparent_background": false,
+    "reference": []
+  },
+  "chamber": {
+    "source": "C:\\Users\\stefa\\.codex\\generated_images\\01a14f15-e0c8-75f1-b1b8-4f67d141bebc\\exec-3af77004-3208-4928-8adc-3865681f065c.png",
+    "prompt": "Production game illustration, graphite pencil and fine ink crosshatching on pale ivory paper. Strictly MONOCHROME black gray graphite, no gold, no blue, no orange, no colored lights. Authentic hand-drawn D&D notebook, intricate but readable silhouettes, pale midtones, dark cavities, no text, no logos, no interface, no characters, no borders. Wide landscape 16:9, approximately 1792x1024. SIDE-ON fighting-game scenery, frontal elevation, no vanishing-point floor, horizon/base of wall at lower 65%; empty lower third for gameplay ground. Ancient Netherese catacombs below Old Tantras. The chamber of magical cycles. At the center of the background, an ancient compact Netherese arcane-psionic mechanism displayed above a broad stone pedestal: nested gyroscopic metal rings, faceted central crystal and radiating geometric rune bands, intricate visible mechanical craftsmanship. It stabilizes magic, NOT a time machine: no conventional clock face, no hands, no numerals, no time portals. Spacious cyclopean circular masonry, deeply recessed side vaults, three carved geometric conduits leading toward bottom of wall. Mechanism visually unique and clear; quiet monochrome magical resonance shown by sketch lines only.",
+    "transparent_background": false,
+    "reference": []
+  },
+  "terrain": {
+    "source": "C:\\Users\\stefa\\.codex\\generated_images\\01a14f15-e0c8-75f1-b1b8-4f67d141bebc\\exec-80b4d135-07d9-47a8-ab4f-f9a20e85b502.png",
+    "prompt": "Production texture atlas for a graphite-on-ivory hand drawn 2D side-scrolling game set in the ancient catacombs under Old Tantras. Wide landscape 16:9. EXACT TWO HORIZONTAL REGIONS separated at half-height with a thin white gutter. TOP HALF: on an ivory clean background two separate upright ancient limestone rectangular pillars fully visible, one near x25%, one near x75%, bases and capitals visible, dark geometric netherese carved bands, no arches; large blank ivory around each pillar. BOTTOM HALF: an uninterrupted rectangular slab texture of cracked ancient limestone floor seen in shallow orthographic top-down, same fine graphite pencil crosshatching, horizontally repeatable stones, no perspective vanishing, no props. Strict monochrome graphite black/gray on ivory, no color, no text, no UI. Asset sheet, not a scene.",
+    "transparent_background": false,
+    "reference": []
+  },
+  "comic_entry": {
+    "source": "C:\\Users\\stefa\\.codex\\generated_images\\01a14f15-e0c8-75f1-b1b8-4f67d141bebc\\exec-4d232dab-f644-424f-a09c-e040d4a107da.png",
+    "prompt": "Exactly three protagonists, matching reference identities: very SHORT BROAD ginger-bearded dwarf cleric Tholgrin wearing full steel plate, sacred mace and round shield; adult blonde ponytail woman Layla in purple leather and cloak with small purple psionic daggers; adult male silver-haired elf Lupinor dark armor teal cloak scimitar wrist crossbow. Natural coherent anatomy, whole figures or natural portraits, never separated limbs. Pale parchment graphite and ink with restrained orange/purple/teal watercolor accents only on protagonists. THREE equal vertical comic panels separated by narrow black gutters at exact thirds, wide 16:9. No lettering, no balloons, no logos, no UI. Heads and important objects in upper two-thirds; lower third clear for game dialogue overlays. Panel1 private side room of the Scudo Infrangibile inn: all three heroes read an old mission report together, dwarf points at parchment, no writing legible. Panel2 a reconstruction based on that report: three heroes descend stone stairs into ancient catacombs below Old Tantras, burial niches and broken geometric ornaments. Panel3 dwarf in foreground looks toward a monumental sealed circular stone doorway, blonde rogue examines the seal and elf watches the dark corridor. Atmospheric mystery, no claims of recovered memories. Reference is only for hero identities and drawing technique, replace bridge architecture completely.",
+    "transparent_background": false,
+    "reference": [
+      "C:/Users/stefa/Dev/Ded/assets/interludes/bridge-comic-1.png"
+    ]
+  },
+  "comic_end": {
+    "source": "C:\\Users\\stefa\\.codex\\generated_images\\01a14f15-e0c8-75f1-b1b8-4f67d141bebc\\exec-81aa3c2a-f0e7-4a2f-ac73-f866d078491b.png",
+    "prompt": "Exactly three protagonists, matching reference identities: very SHORT BROAD ginger-bearded dwarf cleric Tholgrin wearing full steel plate, sacred mace and round shield; adult blonde ponytail woman Layla in purple leather and cloak with small purple psionic daggers; adult male silver-haired elf Lupinor dark armor teal cloak scimitar wrist crossbow. Natural coherent anatomy, whole figures or natural portraits, never separated limbs. Pale parchment graphite and ink with restrained orange/purple/teal watercolor accents only on protagonists. THREE equal vertical comic panels separated by narrow black gutters at exact thirds, wide 16:9. No lettering, no balloons, no logos, no UI. Heads and important objects in upper two-thirds; lower third clear for game dialogue overlays. Panel1 ancient crypt mechanism room: all three heroes stand before a SMALL portable intricate Netherese gyroscopic arcane-psionic device on stone pedestal, nested metal rings and faceted crystal, NO conventional clock dial, no hands, no numerals, quiet sketch resonance around device. Panel2 dwarf carefully lifts the compact device with both gloved hands while blonde rogue and silver-haired elf watch, respectful serious mood, coherent hands. Panel3 BACK IN THE PRESENT at the private inn table: the three heroes study their mission report and a drawn diagram of the device, uncertain thoughtful expressions, device is ONLY a sketch on the parchment, NOT present as a physical artifact at the inn because it was stolen after the historic expedition. No villains, no time portals, no memory-recovery effects. Reference is hero identities/style only.",
+    "transparent_background": false,
+    "reference": [
+      "C:/Users/stefa/Dev/Ded/assets/interludes/bridge-comic-1.png"
+    ]
+  },
+  "pillar": {
+    "source": "C:\\Users\\stefa\\.codex\\generated_images\\01a14f15-e0c8-75f1-b1b8-4f67d141bebc\\exec-83980ef3-3d5f-4d63-9df3-3775b37023f0.png",
+    "prompt": "Production 2D game foreground/midground sprite, one ancient Netherese limestone PILLAR from the catacombs beneath Old Tantras, full object visible from capital to foot with margins, isolated on a genuinely TRANSPARENT BACKGROUND. Tall narrow rectangular pillar, chipped stone, ornate angular geometric rune carvings without readable letters, subtle roots. Strictly BLACK AND GRAY GRAPHITE PENCIL AND FINE INK crosshatching, neutral white stone highlights, no color, no sepia, no scenery, no ground plane, no arch, no shadow rectangle, no text. Frontal orthographic view, proportions 1:4, richly drawn D&D notebook style, coherent masonry. Need real alpha for layering over a separate monochrome crypt background.",
+    "transparent_background": true
+  },
+  "floor": {
+    "source": "C:\\Users\\stefa\\.codex\\generated_images\\01a14f15-e0c8-75f1-b1b8-4f67d141bebc\\exec-ec7234fb-0bf0-4524-8df6-0adbcec8203a.png",
+    "prompt": "NEW production ground texture for a side-view 2D beat-em-up set in Old Tantras catacombs. Reference image is ONLY for ground-plane angle and stone scale, do not copy its arrangement or vegetation. Very WIDE 3:1 image, target 2048x683. Entire image is a HORIZONTAL FLOOR PLANE of ancient limestone paving viewed obliquely from above, foreshortened slab rows. Nine to eleven horizontal rows of narrow flattened paving stones, each stone much wider than tall; small stones at the top edge, slightly larger toward the bottom. New cracked geometric limestone patterns, a few faint angular Netherese carvings, dust and chips, NO plants. Subtle horizontal repeat at left/right. Graphite pencil and fine ink crosshatching on pale ivory paper, strict neutral monochrome black/gray, pale readable value, no color, no sepia. No wall, no upright blocks, no pillars, no horizon, no stairs, no props, no people, no text, no frame. This must clearly read as walkable paving under characters, never a vertical brick wall.",
+    "transparent_background": false,
+    "reference": [
+      "assets/pencil/floor.png (ground plane angle and scale only)"
+    ]
+  }
+}

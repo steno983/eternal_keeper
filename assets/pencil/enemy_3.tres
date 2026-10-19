@@ -1,0 +1,76 @@
+[gd_resource type="SpriteFrames" load_steps=18 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/pencil/enemy_3-keys.png" id="atlas"]
+
+[sub_resource type="AtlasTexture" id="f0"]
+atlas = ExtResource("atlas")
+region = Rect2(0, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f1"]
+atlas = ExtResource("atlas")
+region = Rect2(512, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f2"]
+atlas = ExtResource("atlas")
+region = Rect2(1024, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f3"]
+atlas = ExtResource("atlas")
+region = Rect2(1536, 0, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f4"]
+atlas = ExtResource("atlas")
+region = Rect2(0, 416, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f5"]
+atlas = ExtResource("atlas")
+region = Rect2(512, 416, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f6"]
+atlas = ExtResource("atlas")
+region = Rect2(1024, 416, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f7"]
+atlas = ExtResource("atlas")
+region = Rect2(1536, 416, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f8"]
+atlas = ExtResource("atlas")
+region = Rect2(0, 832, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f9"]
+atlas = ExtResource("atlas")
+region = Rect2(512, 832, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f10"]
+atlas = ExtResource("atlas")
+region = Rect2(1024, 832, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f11"]
+atlas = ExtResource("atlas")
+region = Rect2(1536, 832, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f12"]
+atlas = ExtResource("atlas")
+region = Rect2(0, 1248, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f13"]
+atlas = ExtResource("atlas")
+region = Rect2(512, 1248, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f14"]
+atlas = ExtResource("atlas")
+region = Rect2(1024, 1248, 512, 416)
+
+[sub_resource type="AtlasTexture" id="f15"]
+atlas = ExtResource("atlas")
+region = Rect2(1536, 1248, 512, 416)
+
+[resource]
+animations = [
+{"frames": [{"duration": 0.24000, "texture": SubResource("f0")}, {"duration": 0.24000, "texture": SubResource("f1")}, {"duration": 0.24000, "texture": SubResource("f2")}, {"duration": 0.24000, "texture": SubResource("f3")}], "loop": true, "name": &"idle", "speed": 1.0},
+{"frames": [{"duration": 0.12000, "texture": SubResource("f4")}, {"duration": 0.12000, "texture": SubResource("f5")}, {"duration": 0.12000, "texture": SubResource("f6")}, {"duration": 0.12000, "texture": SubResource("f7")}], "loop": true, "name": &"run", "speed": 1.0},
+{"frames": [{"duration": 0.20000, "texture": SubResource("f0")}, {"duration": 0.60000, "texture": SubResource("f8")}, {"duration": 0.50000, "texture": SubResource("f9")}], "loop": false, "name": &"windup", "speed": 1.0},
+{"frames": [{"duration": 0.10000, "texture": SubResource("f8")}, {"duration": 0.14000, "texture": SubResource("f9")}, {"duration": 0.10000, "texture": SubResource("f10")}, {"duration": 0.20000, "texture": SubResource("f11")}], "loop": false, "name": &"attack", "speed": 1.0},
+{"frames": [{"duration": 0.05500, "texture": SubResource("f12")}, {"duration": 0.05500, "texture": SubResource("f13")}, {"duration": 0.05500, "texture": SubResource("f14")}, {"duration": 0.05500, "texture": SubResource("f15")}], "loop": false, "name": &"hurt", "speed": 1.0}
+]
