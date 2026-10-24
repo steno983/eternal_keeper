@@ -207,5 +207,13 @@
   "build_deepen": "RAFFORZA IL PERCORSO",
   "build_max": "PERCORSO COMPLETO",
   "build_after": "DOPO LA SCELTA",
-  "build_header": "Scegli una trasformazione e il suo percorso. Puoi combinarli."
+  "build_header": "Scegli una trasformazione e il suo percorso. Puoi combinarli.",
+  "touch_continue": "Tocca per continuare",
+  "touch_pause": "Pausa",
+  "touch_attack": "Mazza",
+  "touch_guard": "Parata",
+  "touch_dodge": "Schiva",
+  "touch_party_super": "Intesa",
+  "touch_mana_hint": "La mazza recupera mana",
+  "touch_intesa_hint": "60: duo · 100: trio"
 }

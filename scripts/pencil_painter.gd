@@ -537,6 +537,7 @@ func _hud() -> void:
 		elif rule.type in ["escape","scrolling"]: progress=clampf((game.player.x-float(rule.stage.player_x))/maxf(1,float(rule.exit.x)-float(rule.stage.player_x)),0,1)
 		draw_rect(Rect2(1060,121,336,4),Color("d7cdb9"))
 		draw_rect(Rect2(1060,121,336*progress,4),TEAL)
+	if is_instance_valid(game.mobile_controls) and game.mobile_controls.enabled: _mobile_header()
 	if game.campaign and game.wave>0 and run.current_rule().type=="scrolling":
 		if run.road.active:
 			_panel(Rect2(470,148,500,55),GOLD)
@@ -559,6 +560,7 @@ func _hud() -> void:
 		_center(Vector2(720,686),run.notice,19,INK)
 	elif run.buff_time>0:
 		_center(Vector2(720,686),Texts.ui("s_1f_s_s") % [run.skill_name(2),run.buff_time,Texts.ui("scudo_d") % int(run.barrier) if run.barrier>0 else ""],18,GOLD)
+	if is_instance_valid(game.mobile_controls) and game.mobile_controls.enabled: return
 	draw_rect(Rect2(0,714,1440,96),PAPER)
 	_brush(Rect2(0,710,1440,5),INK,9,3)
 	_text(Vector2(24,743),Texts.ui("resistance_controls_short") if game.horizontal_locked() else Texts.ui("a_d_muovi_w_s_corsia"),14)
@@ -568,6 +570,31 @@ func _hud() -> void:
 		_skill_card(i)
 	_text(Vector2(1276,752),Texts.ui("v_intesa"),15)
 	_text(Vector2(1276,779),Texts.ui("esc_pausa"),13)
+
+func _mobile_header() -> void:
+	var run=game.run
+	draw_rect(Rect2(0,0,1440,140),PAPER)
+	for i in range(4): _panel(Rect2(20+i*355,12,340,119),TEAL if i in [1,2] else GOLD)
+	_text(Vector2(38,45),Texts.ui("tholgrin"),27,INK,true)
+	_text(Vector2(38,77),Texts.ui("salute_d_d") % [ceili(game.player.hp),int(game.player.max_hp)],24,INK)
+	draw_rect(Rect2(38,96,300,16),Color("d7cdb9"))
+	draw_rect(Rect2(38,96,300*game.player.hp/game.player.max_hp,16),Color("b56c30"))
+	_text(Vector2(393,45),Texts.ui("mana_d_100") % int(run.mana),25,INK)
+	draw_rect(Rect2(393,61,300,16),Color("d7cdb9"))
+	draw_rect(Rect2(393,61,300*run.mana/100,16),TEAL)
+	_text(Vector2(393,110),run.path_summary() if not run.taken.is_empty() else Texts.ui("touch_mana_hint"),20,INK)
+	_text(Vector2(748,45),Texts.ui("intesa_d_100") % int(run.intesa),25,INK)
+	draw_rect(Rect2(748,61,300,16),Color("d7cdb9"))
+	draw_rect(Rect2(748,61,300*run.intesa/100,16),Color("775398"))
+	_text(Vector2(748,110),Texts.ui("touch_intesa_hint"),21,INK)
+	_text(Vector2(1103,45),Texts.ui("livello_stage") % [run.level_number(),run.stage_number(),run.current_level().stages.size()] if game.campaign else Texts.ui("stanza_d") % game.wave,22,INK)
+	draw_multiline_string(font,Vector2(1103,77),run.objective_label() if game.campaign else run.ROOM_NAMES[maxi(0,game.wave-1)],HORIZONTAL_ALIGNMENT_LEFT,300,21,2,INK)
+
+func _skill_icon_for_touch(canvas, rect:Rect2, slot:int, progress:float) -> void:
+	canvas.draw_texture_rect(skill_icons_grey[slot],rect,false)
+	if progress<=0: return
+	var full=Vector2(skill_icons[slot].get_size())
+	canvas.draw_texture_rect_region(skill_icons[slot],Rect2(rect.position+Vector2(0,rect.size.y*(1-progress)),Vector2(rect.size.x,rect.size.y*progress)),Rect2(Vector2(0,full.y*(1-progress)),Vector2(full.x,full.y*progress)))
 
 func _skill_icon(rect: Rect2, slot: int, progress: float=1.0) -> void:
 	draw_texture_rect(skill_icons_grey[slot],rect,false)

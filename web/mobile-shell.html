@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=contain">
+<meta name="theme-color" content="#302b28"><meta name="apple-mobile-web-app-capable" content="yes">
+<title>$GODOT_PROJECT_NAME</title>
+$GODOT_HEAD_INCLUDE
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#302b28;color:#302b28;touch-action:none;overscroll-behavior:none;font-family:Georgia,serif}#canvas{display:block;outline:none}#welcome,#rotate{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;z-index:5;background:#f1e9d7;padding:24px;text-align:center}.paper{max-width:620px;padding:24px;border:2px solid #302b28;box-shadow:8px 8px 0 #d3c6ac;transform:rotate(-1deg)}h1{font-size:clamp(24px,5vw,42px);margin:0 0 12px}p{font-size:18px;line-height:1.4}button{font:700 21px Georgia,serif;background:#302b28;color:#f1e9d7;border:0;padding:18px 32px;min-height:56px;cursor:pointer}button:disabled{opacity:.55}progress{display:block;width:100%;height:18px;margin:18px 0;accent-color:#398071}#rotate{display:none;z-index:8}#fullscreen{position:fixed;bottom:8px;right:8px;font:15px sans-serif;padding:10px;min-height:44px;z-index:6;display:none}body.running #fullscreen{display:block}body.mobile.running #fullscreen{opacity:.65;bottom:env(safe-area-inset-bottom,0);right:env(safe-area-inset-right,0);font-size:12px;min-height:28px;padding:5px}@media(max-aspect-ratio:1/1){body.mobile #rotate{display:flex}}
+</style></head><body>
+<canvas id="canvas" tabindex="0">Il browser deve supportare WebGL 2.</canvas>
+<section id="welcome"><div class="paper"><h1>Ceneri &amp; Echi</h1><p>Un’avventura disegnata fra inchiostro, fuoco ed echi.</p><p>Su telefono: ruota lo schermo. Joystick a sinistra, azioni a destra e magie in basso.</p><button id="play">Gioca</button><progress id="progress" value="0" max="100" hidden></progress><p id="status" role="status">Il primo caricamento può richiedere qualche minuto. Usa una connessione Wi-Fi.</p></div></section>
+<section id="rotate"><div class="paper"><h1>Ruota il telefono</h1><p>L’avventura si gioca in orizzontale.</p><p>La partita rimane in pausa quando cambi orientamento.</p></div></section>
+<button id="fullscreen" aria-label="Schermo intero">Schermo intero</button>
+<noscript>Abilita JavaScript per giocare.</noscript>
+<script src="$GODOT_URL"></script><script>
+const config=$GODOT_CONFIG;
+const mobile=matchMedia('(pointer: coarse)').matches||navigator.maxTouchPoints>0||new URLSearchParams(location.search).has('mobile');
+if(mobile){document.body.classList.add('mobile');config.args.push('--mobile-preview');}
+const engine=new Engine(config),play=document.querySelector('#play'),status=document.querySelector('#status'),progress=document.querySelector('#progress');
+async function fullscreen(){try{if(!document.fullscreenElement&&document.documentElement.requestFullscreen)await document.documentElement.requestFullscreen();if(screen.orientation&&screen.orientation.lock)await screen.orientation.lock('landscape');}catch(_){}}
+document.querySelector('#fullscreen').onclick=fullscreen;
+let portrait=innerHeight>innerWidth;
+addEventListener('resize',()=>{const next=innerHeight>innerWidth;if(mobile&&next&&!portrait&&document.body.classList.contains('running'))dispatchEvent(new Event('blur'));portrait=next;});
+play.onclick=async()=>{
+ play.disabled=true;status.textContent='Caricamento dell’avventura…';progress.hidden=false;
+ const missing=Engine.getMissingFeatures({threads:false});
+ if(missing.length){status.textContent='Questo browser non supporta le funzioni richieste: '+missing.join(', ');play.disabled=false;return;}
+ try{await engine.startGame({onProgress:(current,total)=>{if(total>0){progress.max=total;progress.value=current;status.textContent='Caricamento: '+Math.round(current/total*100)+'%';}}});document.querySelector('#welcome').remove();document.body.classList.add('running');document.querySelector('#canvas').focus();}
+ catch(error){status.textContent='Non è stato possibile avviare la demo. '+error.message;play.textContent='Ricarica la pagina';play.disabled=false;play.onclick=()=>location.reload();}
+};
+addEventListener('contextmenu',e=>e.preventDefault());
+</script></body></html>

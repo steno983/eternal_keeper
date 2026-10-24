@@ -5,6 +5,7 @@ const RunRules=preload("res://scripts/pilgrim_run.gd")
 const ArchiveRules=preload("res://scripts/archive_run.gd")
 var campaign: bool=true
 var run=ArchiveRules.new()
+var mobile_controls
 var reward_cursor: int=0
 const Fighter = preload("res://scripts/fighter.gd")
 const Painter = preload("res://scripts/pencil_painter.gd")
@@ -123,6 +124,9 @@ func _ready() -> void:
 	overlay.overlay_pass = true
 	overlay.name = "EffectsAndHUD"
 	add_child(overlay)
+	mobile_controls=preload("res://scripts/mobile_controls.gd").new()
+	mobile_controls.game=self
+	add_child(mobile_controls)
 	_reset()
 	if "--showcase" in OS.get_cmdline_user_args():
 		start_game(true)
